@@ -6,6 +6,7 @@ if (!Number.isInteger(start) || !Number.isInteger(end)) return "ERROR";
     const temp = start;
     start = end;
     end = temp;
+  }
 let i=start;
   let sum=0;
   for(i;i<=end;i++){
